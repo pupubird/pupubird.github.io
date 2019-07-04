@@ -102,16 +102,17 @@ a{
   font-weight: 200;
 }
 
-#foot #aboutImageContainer{
-  width: 475px;
-  margin: auto;
+#aboutImageContainer{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  width:100%;
+  text-align: center;
 }
-
 #foot .aboutImage{
-  margin-right: 25px;
   width: 200px;
   height: 200px;
-  display: inline;
 }
 
 #footer{
@@ -149,6 +150,10 @@ a{
     width: 450px;
     height: 243px;
   }
+  #foot .aboutImage{
+  width: 150px;
+  height: 150px;
+}
 }
 
 @media only screen and (max-width:900px){
