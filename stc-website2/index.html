@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--base color: #F5F5F5 white-->
+    <!--primary color: #2ECC71 green-->
+    <!--secondary color: #16E3FE blue-->
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/animation.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!--nav-->
+    <div class="navbar-fixed">
+      <nav class="nav-trans z-depth-0">
+        <div class="nav-wrapper">
+         <a href="#" class="brand-logo #9e9e9e grey-text">
+           <img class="logo" src="assets/stc-sticker-1.png">
+         </a>
+         <ul id="nav-mobile" class="left hide-on-med-and-down stc-word">
+           <li>
+             <a href="#" style="font-size:21px;">
+               <span class="#2ECC71 green-text">S</span>
+               <span class="#16E3FE blue-text">T</span>
+               <span class="#F5F5F5 grey-text lighten-1">C</span>
+             </a>
+           </li>
+         </ul>
+
+         <a href="#" data-target="sidenav-mobile" class="sidenav-trigger #48E78C green-text"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+          <li><a href="#about-us" class="#48E78C green-text">About Us</a></li>
+          <li><a href="#events" class="#48E78C green-text">Events</a></li>
+          <li><a href="#contact" class="#48E78C green-text">Contact</a></li>
+         </ul>
+       </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="sidenav-mobile" >
+       <li class="center" style="font-size:24px;">
+          <span class="#2ECC71 green-text">S</span>
+          <span class="#16E3FE blue-text">T</span>
+          <span class="#F5F5F5 grey-text lighten-1">C</span>
+       </li>
+       <li>
+         <div class="divider">
+         </div>
+       </li>
+       <li><a href="#about-us" class="#F5F5F5 grey-text lighten-1 sidenav-close">About </a></li>
+       <li><a href="#events" class="#F5F5F5 grey-text lighten-1 sidenav-close">Events</a></li>
+       <li><a href="#contact" class="#F5F5F5 grey-text lighten-1 sidenav-close">Contact</a></li>
+    </ul>
+    <!--end nav-->
+
+    <!--float button-->
+    <div class="fixed-action-btn">
+      <a href="#home" class="btn-floating btn-large #2ECC71 green">
+        <i class="material-icons">
+          home
+        </i>
+      </a>
+    </div>
+
+
+    <!--Content, intro-->
+    <div id="home" class="section scrollspy">
+    </div>
+    <div class="container valign-wrapper intro-container " >
+      <h1 class="align-center intro-text flow-text  animated fadeIn" style="
+        animation-delay: 0.5s;
+        animation-duration: 2s;
+      ">
+        <span class="#2ECC71 green-text">Bridging</span>
+        the gap between
+         <span class="#16E3FE blue-text">tech</span>
+         education and
+         academia,
+         industry
+         and
+         entrepreneurship.
+        <br>
+        <a href="#about-us" class="btn-large waves-effect waves-light #48E78C green white-text our-aim animated fadeIn" style="
+          animation-delay: 2s;
+          animation-duration: 2s;
+
+        ">About Us</a>
+      </h1>
+    </div>
+    <!--end intro-->
+    <div class="section-divider">
+    </div>
+
+    <!--About us-->
+    <div class="center container about-container" >
+      <h1 class="align-center about-text" >About
+        Us
+      </h1>
+      <h2 class="flow-text about-content scrollspy" id="about-us">
+        Sunway Tech Club was created in 2017 and intends to create opportunity and build a strong
+        platform for students at Sunway University
+        to experience IT and computer related development through a hands-on-approach.
+        <!--link to our history page-->
+        <a href="#modal1" style="display:inline;" class="#16E3FE blue-text modal-trigger">
+          <h6 class="valign-wrapper" style="display:inline;">Read more</h5>
+        </a>
+      </h3>
+      <a href="#events" class="btn-large waves-effect waves-light #48E78C green white-text our-aim animated fadeIn" style="
+        animation-delay: 0.75s;
+        animation-duration: 2s;
+        font-weight: 100;
+      ">Our events</a>
+    </div>
+
+    <!--model-->
+    <div class="modal" id="modal1">
+      <div class="modal-content flow-text">
+        <h2>
+           <span class="#2ECC71 green-text">S</span>
+           <span class="#16E3FE blue-text">T</span>
+           <span class="#F5F5F5 grey-text lighten-1">C</span>
+        </h4>
+        <h6 class="#F5F5F5 grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, s
+          unt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Close</a>
+      </div>
+    </div>
+    <!--end about-->
+    <div class="section-divider">
+    </div>
+    <!--events-->
+    <div class="container animated fadeIn" >
+      <h3 class="#F5F5F5 grey-text lighten-1 center" style="height:100px;"> Recent Events</h3>
+      <div id="events" class="scrollspy" >
+        <!--scrollspy target here-->
+      </div>
+      <div class="row" >
+          <!--below are repetitive events card-->
+          <div class="card #F5F5F5 white col s12 m4 z-depth-0">
+            <div class="card-image">
+              <img src="assets/showcase3.png" alt="">
+            </div>
+
+            <div class="card-content hide-on-small-only">
+              <h6>Basic Java Workshop</h6>
+              <p>Held in 2019/12/24</h2>
+            </div>
+            <div class="card-action">
+              <a href="#event" style="display:inline;" class="#16E3FE blue-text modal-trigger">
+                <h6 class="valign-wrapper" style="display:inline;">Learn more</h5>
+              </a>
+              <a href="#" class="#16E3FE blue-text right" style="margin:0px;padding:0px; ">Join Now!</a>
+            </div>
+          </div>
+          <!--end for repetitive cards content-->
+
+          <div class="card #F5F5F5 white col s12 m4 z-depth-0" >
+            <div class="card-image">
+              <img src="assets/showcase1.png" alt="">
+            </div>
+            <div class="card-content hide-on-small-only">
+              <h6>Basic Java Workshop</h6>
+              <p>Held in yyyy-mm-dd</h2>
+            </div>
+            <div class="card-action">
+              <a href="#event" style="display:inline;" class="#16E3FE blue-text modal-trigger">
+                <h6 class="valign-wrapper" style="display:inline;">Learn more</h5>
+              </a>
+            </div>
+          </div>
+
+          <div class="card #F5F5F5 white col s12 m4 z-depth-0">
+            <div class="card-image">
+              <img src="assets/showcase3.png" alt="">
+            </div>
+            <div class="card-content hide-on-small-only">
+              <h6>Basic Java Workshop</h6>
+              <p>Held in yyyy-mm-dd</h2>
+            </div>
+            <div class="card-action">
+              <a href="#event" style="display:inline;" class="#16E3FE blue-text modal-trigger">
+                <h6 class="valign-wrapper" style="display:inline;">Learn more</h5>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="center">
+      <a href="#" class="waves-effect waves-light btn-flat #16E3FE blue-text ">See All Our past events</a>
+    </div>
+
+    <!--the id of below div, should link with the event's 'learn more' button -->
+    <div class="modal" id="event">
+      <div class="modal-content flow-text">
+        <h4>
+          <span class="#2ECC71 green-text">Cybersecurity talk</span>
+        </h4>
+        
+        <h5 class="black-text">Date: 03/10/2018</h5>
+        <h6 class="#F5F5F5 grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, s
+          unt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+      </div>
+      <div class="modal-footer">
+      <!--the href below, should link with the registration page -->
+        <a href="#!" class="modal-close waves-effect waves-light btn-flat #2ECC71 green-text lighten-1">Join Now</a>
+        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Close</a>
+      </div>
+    </div>
+
+    <!--end events-->
+
+
+
+    <!--contact-->
+    <div class="contaier">
+
+    </div>
+    <!--end contact-->
+
+
+    <div style="margin-bottom:1000px;">
+    </div>
+
+    <!--footer-->
+    <footer class="page-footer #2ECC71 green">
+      <div class="container" style="height:200px;">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer here</h5>
+            <p class="grey-text text-lighten-4">sth sth sth hahhahahahahahhahahahahahahhaha</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 Sunway Tech Club
+        </div>
+      </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      M.AutoInit()
+    </script>
+  </body>
+</html>

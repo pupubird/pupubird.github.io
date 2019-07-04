@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fadeIn{
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+
+.logo{
+  width:40px;
+  height:40px;
+  margin-top:10px;
+  margin-left:90px;
+}
+
+.stc-word{
+  margin-left: 15px;
+}
+
+
+.intro-container{
+  margin-top: 15vh;
+  color: #777777;
+}
+.intro-text{
+  font-weight: 100;
+  font-size: 54px;
+  display: block;
+}
+.section-divider{
+  height: 500px;
+}
+
+.about-text{
+  font-weight: 100;
+  font-size: 47px;
+  display: block;
+}
+.about-content{
+  font-weight: 100;
+  font-size: 18px;
+  display: block;
+  color: #777777;
+}
+.our-aim{
+  margin-top: 40px;
+}
+
+.nav-trans{
+  background-color: transparent;
+}
+
+
+blockquote{
+  border-left: 5px solid #2ECC71;
+}
+
+
+@media(max-width:900px){
+  .logo{
+    width:40px;
+    height:40px;
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .intro-container{
+    margin-top:80px;
+    height: 300px;
+  }
+  .nav-trans{
+    background-color: white;
+  }
+  .section-divider{
+    height: 300px;
+  }
+  .our-aim{
+    margin-top: 35px;
+  }
+  .about-content{
+    margin-top: 7px;
+    line-height: 1.2;
+  }
+
+  .intro-text{
+    font-weight: 100;
+    font-size: 33px;
+  }
+}
