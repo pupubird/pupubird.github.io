@@ -31,6 +31,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
+  transition: all 1s ease-in-out;
 }
 .imgContainer{
   display: grid;
@@ -45,6 +46,7 @@ body{
   width: 535px;
   height: 289px;
   box-shadow: 2px 2px 20px 7px #e3e3e3;
+  transition: all 1s ease-in-out;
 }
 
 .items{
